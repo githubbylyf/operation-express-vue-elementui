@@ -1,0 +1,125 @@
+[
+    {
+        "user":"小蓝",
+        "orderId":"E20191109115538084800003",
+        "receiver":"小红",
+        "phone":10000000000,
+        "address":"广东省广州市天河区。。。",
+        "paymentMethod":"支付宝",
+        "paytime":"2022-12-12 12:12:12",
+        "commodity":[
+            {
+                "spuId":"lh1300001",
+                "name":"日系书柜",
+                "amount":1,
+                "unitPrice":480,
+                "parameters":"长0.9m；层数：3层",
+                "type":"goods",
+                "state":3,
+                "stateTimeline":["2022-12-12 13:13:13", "2022-12-13 13:13:13", ""],
+                "deliveryMethod":"物流发货",
+                "consigner":"胡秋秋",
+                "waybillNumber":"中通快递121212121212",
+                "LogisticsTimeline":[
+                    {
+                        "time":"2022-12-14 00:01:02",
+                        "msg": "从佛山出发"
+                    }, 
+                    {
+                        "time":"2022-12-13 16:17:18",
+                        "msg": "已揽收"
+                    },
+                    {
+                        "time":"2022-12-13 13:14:14",
+                        "msg": "等待揽收"
+                    },
+                    {
+                        "time":"",
+                        "msg": ""
+                    }
+                ],
+                "notes":"请快快发货，如果好看还会继续下单，谢谢！！",
+                "hasIncidentalService": true,
+                "incidentalServiceName":"书柜安装",
+                "incidentalServiceAmount":1,
+                "incidentalServiceUnitPrice":0,
+                "purchaseOrderNumber":"C20191109115538084800004",
+                "purchaseOrderUnitPrice":400
+            },
+            {
+                "spuId":"lh1300002",
+                "name":"简约餐桌椅子",
+                "amount":2,
+                "unitPrice":100,
+                "parameters":"材质：榉木；长50cm * 高165cm",
+                "type":"goods",
+                "state":3,
+                "stateTimeline":["2022-12-12 14:14:14", "2022-12-13 14:14:14", ""],
+                "deliveryMethod":"物流发货",
+                "consigner":"胡冬冬",
+                "waybillNumber":"中通快递131313131313",
+                "LogisticsTimeline":[
+                    {
+                        "time":"2022-12-15 00:00:00",
+                        "msg": "到达东莞，发往深圳"
+                    },
+                    {
+                        "time":"2022-12-14 00:00:00",
+                        "msg": "从广州出发，发往东莞"
+                    }, 
+                    {
+                        "time":"2022-12-13 16:00:00",
+                        "msg": "已揽收"
+                    },
+                    {
+                        "time":"2022-12-13 13:13:13",
+                        "msg": "等待揽收"
+                    }
+                ],
+                "notes":"",
+                "hasIncidentalService": false,
+                "incidentalServiceName":"",
+                "incidentalServiceAmount":0,
+                "incidentalServiceUnitPrice":0,
+                "purchaseOrderNumber":"C20191109115538084800003",
+                "purchaseOrderUnitPrice":70
+            },
+            {
+                "spuId":"lh1991001",
+                "name":"拆除服务",
+                "amount":1,
+                "unitPrice":70,
+                "parameters":"",
+                "type":"service",
+                "state":2,
+                "stateTimeline":["2022-12-12 13:13:13", "", ""],
+                "deliveryMethod":"上门服务",
+                "consigner":"拆除公司",
+                "waybillNumber":"服务编号1414141414141414",
+                "LogisticsTimeline":[
+                    {
+                        "time":"2022-12-14 11:11:11",
+                        "msg": "拆除人员已出发"
+                    }, 
+                    {
+                        "time":"2022-12-14 10:10:10",
+                        "msg": "拆除公司已接单"
+                    },
+                    {
+                        "time":"",
+                        "msg": ""
+                    },
+                    {
+                        "time":"",
+                        "msg": ""
+                    }
+                ],
+                "notes":"",
+                "hasIncidentalService": false,
+                "incidentalServiceName":"",
+                "incidentalServiceAmount":0,
+                "incidentalServiceUnitPrice":0
+            }
+        ]
+    }
+]
